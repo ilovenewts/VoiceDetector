@@ -22,9 +22,8 @@ allprojects {
 		maven { url 'https://jitpack.io' }
 	}
 }
-
-### Step. 3
 ```
+### Step. 3
 Add the dependency in build.gradle(Module) and click "sync now".
 
 ```gradle
