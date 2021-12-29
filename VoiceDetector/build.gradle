@@ -14,7 +14,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.mangneung'
                 artifactId = 'final'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
@@ -27,7 +27,7 @@ android {
         minSdk 23
         targetSdk 31
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -40,8 +40,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
